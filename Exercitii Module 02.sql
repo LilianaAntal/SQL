@@ -33,7 +33,7 @@ GO
 
 /*Exercise 5
 Write a SELECT statement to return the FirstName and LastName columns from the Person.Person table 
-assigning “P” as the table alias. Use the table alias P to prefix the names of the two columns in the SELECT list.*/
+assigning â€œPâ€ as the table alias. Use the table alias P to prefix the names of the two columns in the SELECT list.*/
 SELECT
 	p.FirstName,
 	p.LastName
@@ -42,7 +42,7 @@ GO
 
 /*Exercise 6
 Write a SELECT statement to return the BusinessEntityID, FirstName and LastName columns from the Person.Person table. 
-Assign the column aliases “PersonID”, “First Name” and “Last Name” for reporting purposes.*/
+Assign the column aliases â€œPersonIDâ€, â€œFirst Nameâ€ and â€œLast Nameâ€ for reporting purposes.*/
 SELECT
 	BusinessEntityID AS [PersonID],
 	FirstName AS [First Name],
